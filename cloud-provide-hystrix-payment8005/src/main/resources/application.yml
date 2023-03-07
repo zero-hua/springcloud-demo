@@ -1,0 +1,17 @@
+server:
+  port: 8005
+
+spring:
+  application:
+    name: cloud-provide-hystrix-payment
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/

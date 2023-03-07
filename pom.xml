@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.2.2.RELEASE</version>
+    <relativePath/>
+  </parent>
+
+  <groupId>ink.zerohua.springcloud</groupId>
+  <artifactId>springcloud</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>cloud-provide-payment8001</module>
+    <module>cloud-consumer-order80</module>
+    <module>cloud-api-commons</module>
+    <module>cloud-eureka-server7001</module>
+    <module>cloud-eureka-server7002</module>
+    <module>cloud-provide-payment8002</module>
+    <module>cloud-provide-payment8004</module>
+    <module>cloud-consumer-order-zk80</module>
+    <module>cloud-consumer-order-openfeign80</module>
+    <module>cloud-provide-hystrix-payment8005</module>
+    <module>cloud-consumer-opfeign-hystrix-order80</module>
+    <module>cloud-hystrixdashboard9001</module>
+    <module>cloud-gateway9527</module>
+    <module>cloud-config-center3344</module>
+    <module>cloud-config-client3366</module>
+    <module>cloud-config-client3355</module>
+    <module>cloud-stream-rabbitmq-provide8801</module>
+    <module>cloud-stream-rabbitmq-consumer8802</module>
+    <module>cloud-stream-rabbitmq-consumer8803</module>
+    <module>cloud-nacos-payment8501</module>
+    <module>cloud-nacos-payment8502</module>
+    <module>cloud-nacos-payment8503</module>
+    <module>cloud-consumer-order83</module>
+    <module>cloud-nacos-config-client3377</module>
+    <module>cloud-alibaba-sentinel8401</module>
+      <module>cloud-provide-payment9102</module>
+    <module>cloud-provide-payment9101</module>
+    <module>cloud-consumer-order84</module>
+  </modules>
+
+  <!--  统一管理的jar包-->
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <log4j.version>1.2.17</log4j.version>
+    <lombok.version>1.16.14</lombok.version>
+    <mysql.version>8.0.19</mysql.version>
+    <druid.version>1.1.14</druid.version>
+    <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
+    <boot.version>2.2.2.RELEASE</boot.version>
+  </properties>
+
+<!--  子模块继承之后，提供作用：锁定版本+子模块module不用写groupID和version-->
+  <dependencyManagement>
+    <dependencies>
+      <!--spring boot 2.2.2-->
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${boot.version}</version>
+        <type>pom</type>
+        <scope>provided</scope>
+      </dependency>
+      <!--spring cloud Hoxton.SR1-->
+      <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Hoxton.SR1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!--spring cloud alibaba 2.1.0.RELEASE-->
+      <dependency>
+        <groupId>com.alibaba.cloud</groupId>
+        <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+        <version>2.1.0.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>${mysql.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>druid</artifactId>
+        <version>${druid.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.mybatis.spring.boot</groupId>
+        <artifactId>mybatis-spring-boot-starter</artifactId>
+        <version>${mybatis.spring.boot.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>log4j</groupId>
+        <artifactId>log4j</artifactId>
+        <version>${log4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>${lombok.version}</version>
+        <optional>true</optional>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+          <fork>true</fork>
+          <addResources>true</addResources>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

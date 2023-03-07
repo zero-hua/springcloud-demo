@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21bb6ec7-601a-40e5-9cb7-43cc142d2230" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/cloud-alibaba-sentinel8401/cloud-alibaba-sentinel8401.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel8401/cloud-alibaba-sentinel8401.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-api-commons/cloud-api-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/ink/zerohua/springcloud/controller/ConfigClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/ink/zerohua/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-opfeign-hystrix-order80/cloud-consumer-opfeign-hystrix-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-opfeign-hystrix-order80/cloud-consumer-opfeign-hystrix-order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-openfeign80/cloud-consumer-order-openfeign80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-openfeign80/cloud-consumer-order-openfeign80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order-zk80/cloud-consumer-order-zk80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order-zk80/cloud-consumer-order-zk80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/cloud-consumer-order80.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order83/cloud-consumer-order83.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order83/cloud-consumer-order83.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order84/cloud-consumer-order84.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order84/cloud-consumer-order84.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/cloud-eureka-server7001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7002/cloud-eureka-server7002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-gateway9527/cloud-gateway9527.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-gateway9527/cloud-gateway9527.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-hystrixdashboard9001/cloud-hystrixdashboard9001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-hystrixdashboard9001/cloud-hystrixdashboard9001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-nacos-config-client3377/cloud-nacos-config-client3377.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-nacos-config-client3377/cloud-nacos-config-client3377.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-nacos-payment8501/cloud-nacos-payment8501.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-nacos-payment8501/cloud-nacos-payment8501.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-nacos-payment8502/cloud-nacos-payment8502.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-nacos-payment8502/cloud-nacos-payment8502.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provide-hystrix-payment8005/cloud-provide-hystrix-payment8005.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provide-hystrix-payment8005/cloud-provide-hystrix-payment8005.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provide-payment8001/cloud-provide-payment8001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provide-payment8001/cloud-provide-payment8001.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provide-payment8002/cloud-provide-payment8002.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provide-payment8002/cloud-provide-payment8002.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provide-payment8004/cloud-provide-payment8004.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provide-payment8004/cloud-provide-payment8004.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provide-payment9101/cloud-provide-payment9101.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provide-payment9101/cloud-provide-payment9101.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provide-payment9102/cloud-provide-payment9102.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provide-payment9102/cloud-provide-payment9102.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/cloud-stream-rabbitmq-consumer8802.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-stream-rabbitmq-provide8801/cloud-stream-rabbitmq-provide8801.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provide8801/cloud-stream-rabbitmq-provide8801.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="zerohua" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\.m2\repository" />
+        <option name="mavenHome" value="D:\Maven\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g59oXAklKGJs8AuNf8jj1zuIBY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/第2季当堂代码2020.2.29/cloud2020" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.32793137" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaProjects\springcloud\cloud-config-client3355" />
+      <recent name="D:\ideaProjects\springcloud\cloud-config-client3355\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NacosProviderMain8501">
+    <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-center3344" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayMain9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.GateWayMain9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashboardMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-hystrixdashboard9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.HystrixDashboardMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixOpenFeignOderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-opfeign-hystrix-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.HystrixOpenFeignOderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-nacos-config-client3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ink.zerohua.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.NacosConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderMain8501" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-nacos-payment8501" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.NacosProviderMain8501" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderMain8502" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-nacos-payment8502" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.NacosProviderMain8502" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosProviderMain8503" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-nacos-payment8503" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ink.zerohua.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.NacosProviderMain8503" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OderMain83" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order83" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ink.zerohua.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.OderMain83" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OderOpenFeignMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order-openfeign80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.OderOpenFeignMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderNacosMain84" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order84" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ink.zerohua.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.OrderNacosMain84" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrederMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.OrederMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrederZKMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order-zk80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.OrederZKMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixMain8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provide-hystrix-payment8005" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.PaymentHystrixMain8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provide-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provide-payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provide-payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9101" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provide-payment9101" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.PaymentMain9101" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9102" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provide-payment9102" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.PaymentMain9102" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelMain8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-sentinel8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ink.zerohua.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.SentinelMain8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-provide8801" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.StreamMQMain8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.StreamMQMain8802" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8803" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ink.zerohua.springcloud.StreamMQMain8803" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderNacosMain84" />
+        <item itemvalue="Spring Boot.SentinelMain8401" />
+        <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+        <item itemvalue="Spring Boot.OderMain83" />
+        <item itemvalue="Spring Boot.NacosProviderMain8503" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21bb6ec7-601a-40e5-9cb7-43cc142d2230" name="Default Changelist" comment="" />
+      <created>1597393765236</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597393765236</updated>
+      <workItem from="1597393766442" duration="3110000" />
+      <workItem from="1597397063359" duration="1640000" />
+      <workItem from="1597410612431" duration="322000" />
+      <workItem from="1597555473104" duration="2286000" />
+      <workItem from="1597565819286" duration="2853000" />
+      <workItem from="1597568906186" duration="1946000" />
+      <workItem from="1597635582188" duration="11082000" />
+      <workItem from="1597724110594" duration="1870000" />
+      <workItem from="1597812880519" duration="1831000" />
+      <workItem from="1597900038885" duration="6387000" />
+      <workItem from="1597918083084" duration="694000" />
+      <workItem from="1597918802421" duration="5273000" />
+      <workItem from="1597982894938" duration="11254000" />
+      <workItem from="1598071019769" duration="5244000" />
+      <workItem from="1598092190879" duration="2470000" />
+      <workItem from="1598159624962" duration="8119000" />
+      <workItem from="1598249986409" duration="3989000" />
+      <workItem from="1598259868569" duration="6350000" />
+      <workItem from="1598328363390" duration="660000" />
+      <workItem from="1598331625183" duration="9391000" />
+      <workItem from="1598430396850" duration="1600000" />
+      <workItem from="1598602390532" duration="2560000" />
+      <workItem from="1598637156381" duration="296000" />
+      <workItem from="1598772400652" duration="5896000" />
+      <workItem from="1598843363508" duration="9584000" />
+      <workItem from="1598953693385" duration="216000" />
+      <workItem from="1599365945741" duration="848000" />
+      <workItem from="1599373539884" duration="597000" />
+      <workItem from="1599400028335" duration="49000" />
+      <workItem from="1599894757116" duration="67000" />
+      <workItem from="1600157199474" duration="3646000" />
+      <workItem from="1600165871698" duration="3499000" />
+      <workItem from="1600217808339" duration="2918000" />
+      <workItem from="1600225284079" duration="5109000" />
+      <workItem from="1605073102825" duration="248000" />
+      <workItem from="1608540533713" duration="46000" />
+      <workItem from="1647851448660" duration="1345000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="958" y="120" key="#com.intellij.ide.util.MemberChooser" timestamp="1598160058672">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="958" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598160058672" />
+    <state x="281" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1598160289248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="281" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1598160289248" />
+    <state x="674" y="281" key="FileChooserDialogImpl" timestamp="1598089578365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="674" y="281" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598089578365" />
+    <state width="1203" height="638" key="GridCell.Tab.0.bottom" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.0.center" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.0.left" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.0.right" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.1.bottom" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.1.center" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.1.left" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="638" key="GridCell.Tab.1.right" timestamp="1598181969436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="638" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1598181969436" />
+    <state width="1203" height="640" key="GridCell.Tab.2.bottom" timestamp="1598010211105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="640" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598010211105" />
+    <state width="1203" height="640" key="GridCell.Tab.2.center" timestamp="1598010211104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="640" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1598010211104" />
+    <state width="1203" height="640" key="GridCell.Tab.2.left" timestamp="1598010211104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="640" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1598010211104" />
+    <state width="1203" height="640" key="GridCell.Tab.2.right" timestamp="1598010211104">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1203" height="640" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1598010211104" />
+    <state x="429" y="115" key="NewModule_or_Project.wizard" timestamp="1597394217452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="115" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1597394217452" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1599373596725">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599373596725" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1597569883825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1597569883825" />
+    <state x="266" y="94" key="new project wizard" timestamp="1598252112664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="266" y="94" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1598252112664" />
+    <state x="2383" y="189" width="672" height="678" key="search.everywhere.popup" timestamp="1605073244094">
+      <screen x="1920" y="9" width="1600" height="860" />
+    </state>
+    <state x="2383" y="189" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.9.1600.860@1920.9.1600.860" timestamp="1605073244094" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/cloud-config-client3355/src/main/java/ink/zerohua/springcloud/ConfigClientMain3355.java</url>
+          <line>14</line>
+          <properties class="ink.zerohua.springcloud.ConfigClientMain3355" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-consumer-order80" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-consumer-opfeign-hystrix-order80" />
+        <module name="cloud-provide-payment9102" />
+        <module name="cloud-config-client3366" />
+        <module name="cloud-nacos-payment8502" />
+        <module name="cloud-provide-payment8004" />
+        <module name="cloud-eureka-server7001" />
+        <module name="cloud-provide-payment8002" />
+        <module name="cloud-nacos-payment8503" />
+        <module name="cloud-nacos-payment8501" />
+        <module name="cloud-provide-payment9101" />
+        <module name="cloud-provide-hystrix-payment8005" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-hystrixdashboard9001" />
+        <module name="cloud-consumer-order83" />
+        <module name="cloud-consumer-order84" />
+        <module name="cloud-gateway9527" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-provide-payment8001" />
+        <module name="cloud-alibaba-sentinel8401" />
+        <module name="cloud-config-client" />
+        <module name="cloud-nacos-config-client3377" />
+        <module name="cloud-config-center3344" />
+        <module name="cloud-stream-rabbitmq-provide8801" />
+        <module name="cloud-config-client3355" />
+        <module name="cloud-consumer-order-zk80" />
+        <module name="cloud-consumer-order-openfeign80" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-alibaba-sentinel8401" target="1.8" />
+      <module name="cloud-api-commons" target="1.8" />
+      <module name="cloud-config-center3344" target="1.8" />
+      <module name="cloud-config-client" target="1.8" />
+      <module name="cloud-config-client3355" target="1.8" />
+      <module name="cloud-config-client3366" target="1.8" />
+      <module name="cloud-consumer-opfeign-hystrix-order80" target="1.8" />
+      <module name="cloud-consumer-order-openfeign80" target="1.8" />
+      <module name="cloud-consumer-order-zk80" target="1.8" />
+      <module name="cloud-consumer-order80" target="1.8" />
+      <module name="cloud-consumer-order83" target="1.8" />
+      <module name="cloud-consumer-order84" target="1.8" />
+      <module name="cloud-eureka-server7001" target="1.8" />
+      <module name="cloud-eureka-server7002" target="1.8" />
+      <module name="cloud-gateway9527" target="1.8" />
+      <module name="cloud-hystrixdashboard9001" target="1.8" />
+      <module name="cloud-nacos-config-center3377" target="1.8" />
+      <module name="cloud-nacos-config-client3377" target="1.8" />
+      <module name="cloud-nacos-payment8501" target="1.8" />
+      <module name="cloud-nacos-payment8502" target="1.8" />
+      <module name="cloud-nacos-payment8503" target="1.8" />
+      <module name="cloud-provide-hystrix-payment8005" target="1.8" />
+      <module name="cloud-provide-payment8001" target="1.8" />
+      <module name="cloud-provide-payment8002" target="1.8" />
+      <module name="cloud-provide-payment8004" target="1.8" />
+      <module name="cloud-provide-payment9101" target="1.8" />
+      <module name="cloud-provide-payment9102" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8802" target="1.8" />
+      <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
+      <module name="cloud-stream-rabbitmq-provide8801" target="1.8" />
+      <module name="loud-nacos-payment8503" target="1.8" />
+      <module name="springcloud" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-alibaba-sentinel8401" options="-parameters" />
+      <module name="cloud-api-commons" options="-parameters" />
+      <module name="cloud-config-center3344" options="-parameters" />
+      <module name="cloud-config-client3355" options="-parameters" />
+      <module name="cloud-config-client3366" options="-parameters" />
+      <module name="cloud-consumer-opfeign-hystrix-order80" options="-parameters" />
+      <module name="cloud-consumer-order-openfeign80" options="-parameters" />
+      <module name="cloud-consumer-order-zk80" options="" />
+      <module name="cloud-consumer-order80" options="" />
+      <module name="cloud-consumer-order83" options="-parameters" />
+      <module name="cloud-consumer-order84" options="-parameters" />
+      <module name="cloud-eureka-server7001" options="-parameters" />
+      <module name="cloud-eureka-server7002" options="-parameters" />
+      <module name="cloud-gateway9527" options="-parameters" />
+      <module name="cloud-hystrixdashboard9001" options="-parameters" />
+      <module name="cloud-nacos-config-center3377" options="-parameters" />
+      <module name="cloud-nacos-config-client3377" options="-parameters" />
+      <module name="cloud-nacos-payment8501" options="-parameters" />
+      <module name="cloud-nacos-payment8502" options="-parameters" />
+      <module name="cloud-nacos-payment8503" options="-parameters" />
+      <module name="cloud-provide-hystrix-payment8005" options="-parameters" />
+      <module name="cloud-provide-payment8001" options="" />
+      <module name="cloud-provide-payment8002" options="" />
+      <module name="cloud-provide-payment8004" options="" />
+      <module name="cloud-provide-payment9101" options="-parameters" />
+      <module name="cloud-provide-payment9102" options="-parameters" />
+      <module name="cloud-stream-rabbitmq-consumer8802" options="-parameters" />
+      <module name="cloud-stream-rabbitmq-consumer8803" options="-parameters" />
+      <module name="cloud-stream-rabbitmq-provide8801" options="-parameters" />
+      <module name="loud-nacos-payment8503" options="-parameters" />
+    </option>
+  </component>
+</project>

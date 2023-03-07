@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dev #开发环境
+
+# 去配置中心拉取xxx-devxx.yaml的配置文件
+# DataId就是配置文件名字:
+  #
+  #​		名字一定要按照上面的==规则==命名,否则客户端会读取不到配置文件

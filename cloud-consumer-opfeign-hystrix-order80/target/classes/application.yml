@@ -1,0 +1,26 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: cloud-oder-feign-hystrix-service
+
+
+eureka:
+
+  instance:
+    instance-id: oderFeign
+    prefer-ip-address: true
+
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+
+#需要设置openfeifn服务调用超时时间，否则会报超时错误
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+

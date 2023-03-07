@@ -1,0 +1,13 @@
+server:
+  port: 83
+spring:
+  application:
+    name: nacos-order-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+# *这个server-url的作用是,我们在controller,需要使用RestTempalte远程调用9001,
+service-url:
+  nacos-user-service: http://nacos-payment-provider
